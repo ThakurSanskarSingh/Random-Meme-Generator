@@ -1,10 +1,12 @@
 import React from "react"
+import img from "./logo.png"
 
  function Header() {
     return (
         <header className="header">
             <img 
-                src="../components/Troll Face.png" 
+                src={img} 
+                alt = "logo"
                 className="header--image"
             />
             <h2 className="header--title">Meme Generator</h2>
